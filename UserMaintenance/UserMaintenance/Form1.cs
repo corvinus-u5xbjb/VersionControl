@@ -37,5 +37,10 @@ namespace UserMaintenance
             };
             users.Add(u);
         }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
