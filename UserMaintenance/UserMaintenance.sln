@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MNBCurrencyReader", "MNBCur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentFactory", "PresentFactory\PresentFactory.csproj", "{94D5E097-D635-4108-A61A-6F8115998664}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExample.Test", "UnitTestExample.Test\UnitTestExample.Test.csproj", "{8C3FD378-B054-4480-BF9A-C8B1DC4C4185}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{94D5E097-D635-4108-A61A-6F8115998664}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94D5E097-D635-4108-A61A-6F8115998664}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94D5E097-D635-4108-A61A-6F8115998664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C3FD378-B054-4480-BF9A-C8B1DC4C4185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C3FD378-B054-4480-BF9A-C8B1DC4C4185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C3FD378-B054-4480-BF9A-C8B1DC4C4185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C3FD378-B054-4480-BF9A-C8B1DC4C4185}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
