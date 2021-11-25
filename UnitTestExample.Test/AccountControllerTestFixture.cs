@@ -29,7 +29,11 @@ namespace UnitTestExample.Test
         }
 
         [Test,
-            TestCase("", false)]
+            TestCase("abcdefghi", false),
+            TestCase("ABCDEFGHI", false),
+            TestCase("123456789", false),
+            TestCase("Abcd1234", true)
+        ]
         public void TestValidatePassword(string password, bool expectedResult)
         {
             var accountController = new AccountController();
