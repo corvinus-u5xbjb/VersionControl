@@ -10,6 +10,6 @@ namespace MicroSimulation.Entities
     {
         public int Age { get; set; }
         public Gender Gender { get; set; }
-        public double DeathChance { get; set; }
+        public double P { get; set; }
     }
 }
